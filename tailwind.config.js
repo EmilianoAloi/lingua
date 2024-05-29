@@ -9,6 +9,8 @@ module.exports = {
     extend: {
       colors: {
         customPink: '#f04967',
+        customPink0: '#F04967',
+
         customBgPink: '#FFF7F8',
         customGray: '#8B8D98',
       },

@@ -33,10 +33,10 @@ const Navbar = () => {
                         <li><Link href="#" className="hover:text-customGray">Empresas</Link></li>
                         <li><Link href="#" className="hover:text-customGray">Traducciones Públicas</Link></li>
                         <li><Link href="#" className="hover:text-customGray">Contacto</Link></li>
-                        <li className="p-2 px-6 flex flex-col items-center gap-2 bg-customBgPink text-center border-2 border-customPink rounded-xl shadow-lg">
+                        {/* <li className="p-2 px-6 flex flex-col items-center gap-2 bg-customBgPink text-center border-2 border-customPink rounded-xl shadow-lg">
                             <h3 className="text-xs font-bold">Cursos certificados:</h3>
                             <Image src={logoAaci} width={120} alt="logo aaci" />
-                        </li>
+                        </li> */}
 
                     </ul>
                 </div>
