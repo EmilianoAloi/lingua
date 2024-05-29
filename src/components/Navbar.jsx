@@ -1,12 +1,12 @@
 'use client'
 
-
 import Link from "next/link"
 import { motion } from "framer-motion"
 import Image from "next/image"
 import Hamburger from 'hamburger-react'
 import { useState } from "react"
 import logo from "@/assets/logo.jpg"
+import logoAaci from "@/assets/logoaaci.png"
 
 const Navbar = () => {
 
@@ -27,12 +27,16 @@ const Navbar = () => {
                     <Image src={logo} width={180} alt="logo lingua" />
                 </Link>
                 <div className="hidden lg:flex text-customPink text-lg ">
-                    <ul className="flex gap-8">
+                    <ul className="flex gap-8 items-center">
                         <li><Link href="#" className="hover:text-customGray">Cursos</Link></li>
                         <li><Link href="#" className="hover:text-customGray">Examenes</Link></li>
                         <li><Link href="#" className="hover:text-customGray">Empresas</Link></li>
                         <li><Link href="#" className="hover:text-customGray">Traducciones Públicas</Link></li>
                         <li><Link href="#" className="hover:text-customGray">Contacto</Link></li>
+                        <li className="p-2 px-6 flex flex-col items-center gap-2 bg-customBgPink text-center border-2 border-customPink rounded-xl shadow-lg">
+                            <h3 className="text-xs font-bold">Cursos certificados:</h3>
+                            <Image src={logoAaci} width={120} alt="logo aaci" />
+                        </li>
 
                     </ul>
                 </div>
