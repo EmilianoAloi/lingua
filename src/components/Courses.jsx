@@ -1,24 +1,29 @@
-import Card from "./Card"
+import Card from "./Card";
 
 const Courses = () => {
-    return (
-        <section className="text-center ">
-            <div className="py-10 max-w-screen-xl mx-auto w-50 text-white">
-                <h2 className=" text-5xl font-bold ">Cursos a tu medida </h2>
-                <p className="text-xl pt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, nesciunt ratione amet nam nihil reiciendis quidem eum eos mollitia, quisquam in libero tenetur odio laudantium ipsa placeat et eaque sed.</p>
-            </div>
+  return (
+    <section className="courses-section ">
+      <div className="container  mx-auto px-4 py-20 text-center">
+        <h2 class="text-customPink  mb-4 title-border-radius text-2xl font-semibold inline-block p-4 mb-6 ">
+          Cursos de Inglés a medida
+        </h2>
+        <h3 class="text-customViolet mb-12 text-4xl font-bold">
+          Ofrecemos cursos exclusivos para <br /> niños, adolesentes adultos y
+          empresas
+        </h3>
 
-            <div className=" grid grid-cols-4">
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+        <div className="flex justify-center gap-10">
+          <Card />
+          <Card />
+        </div>
 
+        <div className="flex justify-center gap-10 mt-20">
+          <Card />
+          <Card />
+        </div>
+      </div>
+    </section>
+  );
+};
 
-            </div>
-
-        </section>
-    )
-}
-
-export default Courses
+export default Courses;

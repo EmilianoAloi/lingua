@@ -9,8 +9,7 @@ module.exports = {
     extend: {
       colors: {
         customPink: '#f04967',
-        customPink0: '#F04967',
-
+        customViolet: '#393d72',
         customBgPink: '#FFF7F8',
         customGray: '#8B8D98',
       },
@@ -19,7 +18,22 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      container: {
+        center: true, // Centra el contenedor por defecto
+        padding: '1rem', // Padding interno
+        screens: {
+          sm: '640px',
+          md: '768px',
+          lg: '1024px',
+          xl: '1280px',
+        },
+      },
     },
   },
-  plugins: [],
+  daisyui: {
+    themes: ['light'], // Esto habilita solo el tema claro
+  },
+  plugins: [
+    require('daisyui'),
+  ],
 };
