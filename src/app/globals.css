@@ -161,6 +161,19 @@ body {
 /* Cursos */
 
 .courses-section {
-  /* background-image: url("/img/bg-section-grey.webp");
-  background-size: cover; */
+  background-image: url("/img/bg-section-grey.png");
+  background-size: cover;
+}
+
+.workshop-section {
+  background-image: url("/img/bg-dibujo.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 600px;
+}
+
+.card-hr {
+  background-color: #f04967;
+  height: 2px;
 }

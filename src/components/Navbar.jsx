@@ -16,12 +16,12 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="flex-wrap w-full px-4 py-1 lg:px-10 z-20 flex justify-center ">
+    <header className=" flex-wrap w-full pb-2 px-4 lg:py-1 lg:px-10 z-20 flex justify-center ">
       <nav className="flex w-full justify-between items-center ">
         <Link href="/" className="">
           <Image src={logo} width={180} alt="logo lingua" />
         </Link>
-        <div className="hidden lg:flex text-customPink text-lg ">
+        <div className=" hidden lg:flex text-customPink text-lg ">
           <ul className="flex gap-8 items-center">
             <li>
               <Link href="#" className="hover:text-customGray">
@@ -48,10 +48,6 @@ const Navbar = () => {
                 Contacto
               </Link>
             </li>
-            {/* <li className="p-2 px-6 flex flex-col items-center gap-2 bg-customBgPink text-center border-2 border-customPink rounded-xl shadow-lg">
-                            <h3 className="text-xs font-bold">Cursos certificados:</h3>
-                            <Image src={logoAaci} width={120} alt="logo aaci" />
-                        </li> */}
           </ul>
         </div>
 

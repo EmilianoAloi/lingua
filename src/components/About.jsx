@@ -22,14 +22,14 @@ const About = () => {
               </div>
             </div>
 
-            <div class="w-full md:w-6/12">
-              <h2 class="text-customPink mb-4 title-border-radius text-2xl font-semibold inline-block p-4 mb-6 ">
+            <div className="w-full md:w-6/12">
+              <h2 className="text-customPink mb-4 title-border-radius text-2xl font-semibold inline-block p-4 mb-6 ">
                 Sobre nosotros
               </h2>
-              <h3 class="text-customPink mb-4 text-4xl font-bold">
+              <h3 className="text-customPink mb-4 text-4xl font-bold">
                 En Lingua tenemos cursos de inglés desarrollados a tu medida.
               </h3>
-              <p class=" text-black mb-6">
+              <p className=" text-black mb-6">
                 Contamos con docentes con amplia experiencia y hemos capacitado
                 a niños, adolescentes, adultos y personal de empresas. Cada
                 clase es interactiva y personalizada y nuestro objetivo es
@@ -39,31 +39,31 @@ const About = () => {
                 profesional.
               </p>
 
-              <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4 ">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4 ">
                 <div>
-                  <h6 class="mb-3 flex items-center gap-2 font-semibold text-black">
+                  <h6 className="mb-3 flex items-center gap-2 font-semibold text-black">
                     <IoMdCheckmarkCircle color="#f04967" />
                     Avalados por la AACI
                   </h6>
-                  <h6 class="mb-3 flex items-center gap-2 font-semibold text-black">
+                  <h6 className="mb-3 flex items-center gap-2 font-semibold text-black">
                     <IoMdCheckmarkCircle color="#f04967" />
                     30 años de experiencia
                   </h6>
-                  <h6 class="mb-3 flex items-center gap-2 font-semibold text-black">
+                  <h6 className="mb-3 flex items-center gap-2 font-semibold text-black">
                     <IoMdCheckmarkCircle color="#f04967" />
                     Aulas tecnológicas
                   </h6>
                 </div>
                 <div>
-                  <h6 class="mb-3 flex items-center gap-2 font-semibold text-black">
+                  <h6 className="mb-3 flex items-center gap-2 font-semibold text-black">
                     <IoMdCheckmarkCircle color="#f04967" />
                     Contenidos Online
                   </h6>
-                  <h6 class="mb-3 flex items-center gap-2 font-semibold text-black">
+                  <h6 className="mb-3 flex items-center gap-2 font-semibold text-black">
                     <IoMdCheckmarkCircle color="#f04967" />
                     Ambiente amigable
                   </h6>
-                  <h6 class="flex items-center gap-2 font-semibold text-black">
+                  <h6 className="flex items-center gap-2 font-semibold text-black">
                     <IoMdCheckmarkCircle color="#f04967" />
                     Profesores calificados
                   </h6>
