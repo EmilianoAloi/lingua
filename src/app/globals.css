@@ -17,6 +17,11 @@ body {
   box-sizing: border-box;
 }
 
+header,
+.nav {
+  border-bottom: 0;
+}
+
 /*** Hero ***/
 .hero::before,
 .hero::after {

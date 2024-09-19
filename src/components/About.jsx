@@ -4,11 +4,11 @@ import { IoMdCheckmarkCircle } from "react-icons/io";
 
 const About = () => {
   return (
-    <section className="py-20 about-section">
+    <section className="py-14 md:py-20 about-section">
       <div>
         <div class="container mx-auto py-5">
           <div class="flex flex-wrap items-center gap-20">
-            <div className="w-full md:w-5/12">
+            <div className="hidden md:block w-full md:w-5/12">
               <div className="about-video">
                 <button
                   type="button"
@@ -23,10 +23,10 @@ const About = () => {
             </div>
 
             <div className="w-full md:w-6/12">
-              <h2 className="text-customPink mb-4 title-border-radius text-2xl font-semibold inline-block p-4 mb-6 ">
+              <h2 className="text-customPink mb-4 title-border-radius text-md md:text-2xl font-semibold inline-block p-4 mb-6 ">
                 Sobre nosotros
               </h2>
-              <h3 className="text-customPink mb-4 text-4xl font-bold">
+              <h3 className="text-customPink mb-4 text-2xl md:text-4xl font-bold">
                 En Lingua tenemos cursos de inglés desarrollados a tu medida.
               </h3>
               <p className=" text-black mb-6">
@@ -49,7 +49,7 @@ const About = () => {
                     <IoMdCheckmarkCircle color="#f04967" />
                     30 años de experiencia
                   </h6>
-                  <h6 className="mb-3 flex items-center gap-2 font-semibold text-black">
+                  <h6 className=" flex items-center gap-2 font-semibold text-black">
                     <IoMdCheckmarkCircle color="#f04967" />
                     Aulas tecnológicas
                   </h6>
@@ -70,6 +70,20 @@ const About = () => {
                 </div>
               </div>
             </div>
+
+            <div className="md:hidden w-full ">
+              <div className="about-video">
+                <button
+                  type="button"
+                  class="btn-play"
+                  onClick={() =>
+                    document.getElementById("modal-about").showModal()
+                  }
+                >
+                  <span></span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -87,7 +101,7 @@ const About = () => {
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"
-            allowfullScreen
+            allowFullScreen
           ></iframe>
         </div>
         <form method="dialog" className="modal-backdrop">
