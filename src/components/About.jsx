@@ -87,7 +87,7 @@ const About = () => {
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            allowfullScreen
           ></iframe>
         </div>
         <form method="dialog" className="modal-backdrop">

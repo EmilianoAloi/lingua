@@ -50,6 +50,8 @@ body {
 
 .btn {
   border-radius: 25% 10%;
+  background-color: #ff4880;
+  border-color: #ff4880;
 }
 .about-section {
   /* background: linear-gradient(
@@ -159,6 +161,6 @@ body {
 /* Cursos */
 
 .courses-section {
-  background-image: url("/img/bg-section-grey.webp");
-  background-size: cover;
+  /* background-image: url("/img/bg-section-grey.webp");
+  background-size: cover; */
 }
