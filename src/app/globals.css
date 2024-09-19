@@ -94,6 +94,20 @@ header,
   width: 100%;
 }
 
+@media (max-width: 590px) {
+  .about-video {
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0.1)
+      ),
+      url("/img/frente-mobile.png");
+
+    background-size: cover;
+
+    margin-top: -2rem;
+  }
+}
+
 .btn-play {
   position: absolute;
   z-index: 3;

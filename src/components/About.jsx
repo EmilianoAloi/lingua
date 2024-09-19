@@ -4,7 +4,7 @@ import { IoMdCheckmarkCircle } from "react-icons/io";
 
 const About = () => {
   return (
-    <section className="py-14 md:py-20 about-section">
+    <section className="py-6 md:py-20 about-section">
       <div>
         <div class="container mx-auto py-5">
           <div class="flex flex-wrap items-center gap-20">
