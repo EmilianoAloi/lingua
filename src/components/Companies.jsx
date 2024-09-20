@@ -4,13 +4,13 @@ import Image from "next/image";
 
 const Companies = () => {
   return (
-    <div className="container py-10 md:py-16 mx-auto ">
+    <div className="container py-10 md:py-16 md:pb-20 mx-auto ">
       <div className="flex flex flex-col lg:flex-row gap-5">
         <div className="mx-auto ">
           <h2 className="text-customPink mb-4 title-border-radius text-md md:text-2xl font-semibold inline-block p-4 mb-6 ">
             Cursos para empresas
           </h2>
-          <p className="text-customPink mb-8 text-2xl md:text-4xl  font-bold max-w-[700px] mx-auto">
+          <p className="text-slate-800 mb-8 text-2xl md:text-4xl  font-bold max-w-[700px] mx-auto">
             Modalidad «in-company» o cursos regulares en Lingua.
           </p>
           <p className=" max-w-[700px] mx-auto">

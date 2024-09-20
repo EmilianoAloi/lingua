@@ -26,7 +26,7 @@ const About = () => {
               <h2 className="text-customPink mb-4 title-border-radius text-md md:text-2xl font-semibold inline-block p-4 mb-6 ">
                 Sobre nosotros
               </h2>
-              <h3 className="text-customPink mb-4 text-2xl md:text-4xl font-bold">
+              <h3 className="text-slate-800 mb-4 text-2xl md:text-4xl font-bold">
                 En Lingua tenemos cursos de inglés desarrollados a tu medida.
               </h3>
               <p className=" text-black mb-6">

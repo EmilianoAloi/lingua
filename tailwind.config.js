@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         customPink: '#f04967',
         customViolet: '#393d72',
+        customPink2: "#FDD8E0",
         customBgPink: '#FFF7F8',
         customGray: '#8B8D98',
       },
@@ -19,8 +20,8 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       container: {
-        center: true, // Centra el contenedor por defecto
-        padding: '1rem', // Padding interno
+        center: true,
+        padding: '1rem', 
         screens: {
           sm: '640px',
           md: '768px',
@@ -31,7 +32,7 @@ module.exports = {
     },
   },
   daisyui: {
-    themes: ['light'], // Esto habilita solo el tema claro
+    themes: ['light'], 
   },
   plugins: [
     require('daisyui'),

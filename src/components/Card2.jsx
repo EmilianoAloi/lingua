@@ -7,7 +7,7 @@ import { PiChairFill } from "react-icons/pi";
 const Card2 = ({ title, text, img }) => {
   return (
     <div>
-      <div className="card card-compact bg-base-100 max-w-[350px]   shadow-xl overflow-hidden">
+      <div className="card card-compact bg-base-100 max-w-[350px]   shadow-xl overflow-hidden ">
         <figure>
           <Image src={img} width={350} height={200} alt="img card" />
         </figure>

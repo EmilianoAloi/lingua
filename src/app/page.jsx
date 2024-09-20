@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Workshop from "@/components/Workshop";
 import Aaci from "@/components/Aaci";
 import Companies from "@/components/Companies";
+import Divider from "@/components/Divider";
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
       <About />
       <Courses />
       <Companies />
+      <Divider />
+      <Aaci />
     </main>
   );
 }

@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=F#fdd8e0oka:wght@300..700&display=swap");
 
-.fredoka {
-  font-family: "Fredoka", sans-serif !important;
+.f#fdd8e0oka {
+  font-family: "F#fdd8e0oka", sans-serif !important;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
@@ -57,6 +57,16 @@ header,
   border-radius: 25% 10%;
   background-color: #ff4880;
   border-color: #ff4880;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #393d72;
+  color: white;
+}
+
+.btn-cta {
+  border-radius: 25% 10%;
 }
 .about-section {
   /* background: linear-gradient(
@@ -220,4 +230,141 @@ header,
     width: 80px;
     height: auto;
   }
+}
+
+/*---------------------------------------
+  TIMELINE              
+-----------------------------------------*/
+.timeline-section {
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.timeline-container .vertical-scrollable-timeline {
+  list-style-type: none;
+  position: relative;
+  padding-left: 0;
+}
+
+.timeline-container .vertical-scrollable-timeline .list-progress {
+  width: 8px;
+  height: 87%;
+  background-color: #f04967;
+  position: absolute;
+  left: 52px;
+  top: 0;
+  overflow: hidden;
+}
+
+.timeline-container .vertical-scrollable-timeline .list-progress .inner {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: #fdd8e0;
+  width: 100%;
+}
+
+.timeline-container .vertical-scrollable-timeline li {
+  position: relative;
+  padding: 20px 0px 65px 145px;
+}
+
+.timeline-container .vertical-scrollable-timeline li:last-child {
+  padding-bottom: 0;
+}
+
+.timeline-container .vertical-scrollable-timeline li p {
+  line-height: 40px;
+}
+
+.timeline-container .vertical-scrollable-timeline li p:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-container .vertical-scrollable-timeline li .icon-holder {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 104px;
+  height: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdd8e0;
+  border-radius: 50%;
+  z-index: 1;
+  transition: 0.4s all;
+}
+
+.timeline-container .vertical-scrollable-timeline li .icon-holder::before {
+  content: "";
+  width: 80px;
+  height: 80px;
+  border: 4px solid #fff;
+  position: absolute;
+  background-color: #fdd8e0;
+  border-radius: 50%;
+  z-index: -1;
+  transition: 0.4s all;
+}
+
+.timeline-container .vertical-scrollable-timeline li .icon-holder i {
+  font-size: 25px;
+  color: white;
+}
+
+.timeline-container .vertical-scrollable-timeline li::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 8px;
+  background-color: transparent;
+  left: 52px;
+  z-index: 0;
+}
+
+.timeline-container .vertical-scrollable-timeline li.active .icon-holder {
+  background-color: #f04967;
+}
+
+.timeline-container
+  .vertical-scrollable-timeline
+  li.active
+  .icon-holder::before {
+  background-color: #f04967;
+}
+
+.section-aaci {
+  /* background-image: url("/img/bg-aaci.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative; */
+}
+
+.aaci-overlay {
+  /* background-image: linear-gradient(15deg, #db3a9d 0%, #c7405e 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  opacity: 0.85; */
+}
+
+.btn2 {
+  background-color: white;
+  border: 2px solid #fdd8e0;
+  color: #f04967;
+}
+
+.btn2:hover,
+.btn2:focus {
+  background-color: #393d72;
+  color: white;
 }

@@ -7,7 +7,7 @@ const Courses = () => {
         <h2 class="text-customPink  mb-4 title-border-radius text-md md:text-2xl font-semibold inline-block p-4 mb-6 ">
           Cursos de Inglés a medida
         </h2>
-        <h3 class="text-customPink mb-16 text-2xl md:text-4xl  font-bold max-w-[700px] mx-auto">
+        <h3 className="text-slate-800 mb-16 text-2xl md:text-4xl  font-bold max-w-[700px] mx-auto">
           Ofrecemos cursos exclusivos para niños, adolescentes y adultos
         </h3>
 
