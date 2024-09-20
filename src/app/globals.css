@@ -204,3 +204,20 @@ header,
   background-color: #f04967;
   border: 0;
 }
+
+.cambridge-logo {
+  width: 200px;
+  height: 45px;
+}
+
+@media (max-width: 768px) {
+  .cambridge-logo {
+    width: 120px !important;
+    height: 25px !important;
+  }
+
+  .aaci-logo {
+    width: 80px;
+    height: auto;
+  }
+}

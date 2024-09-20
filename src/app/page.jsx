@@ -2,6 +2,8 @@ import Hero from "@/components/Hero";
 import Courses from "@/components/Courses";
 import About from "@/components/About";
 import Workshop from "@/components/Workshop";
+import Aaci from "@/components/Aaci";
+import Companies from "@/components/Companies";
 
 export default function Home() {
   return (
@@ -9,7 +11,7 @@ export default function Home() {
       <Hero />
       <About />
       <Courses />
-      {/* <Workshop /> */}
+      <Companies />
     </main>
   );
 }
