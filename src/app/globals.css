@@ -32,7 +32,7 @@ header,
   top: 0;
   left: 0;
   background: url("/img/bg-header-top.png") center center repeat-x;
-  z-index: 1;
+  z-index: 100;
 }
 
 .hero::after {
@@ -103,7 +103,7 @@ header,
       url("/img/frente-mobile.png");
 
     background-size: cover;
-
+    border-radius: 20px;
     margin-top: -2rem;
   }
 }
@@ -182,6 +182,8 @@ header,
 .courses-section {
   background-image: url("/img/bg-section-grey.png");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .workshop-section {
@@ -195,4 +197,10 @@ header,
 .card-hr {
   background-color: #f04967;
   height: 2px;
+}
+
+.card-actions .btn {
+  color: white;
+  background-color: #f04967;
+  border: 0;
 }

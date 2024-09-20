@@ -4,10 +4,10 @@ import { MdOutlineAccessTimeFilled } from "react-icons/md";
 import { IoMdCheckmarkCircle } from "react-icons/io";
 import { PiChairFill } from "react-icons/pi";
 
-const Card2 = ({ title, text, img }) => {
+const Card = ({ title, text, img }) => {
   return (
     <div>
-      <div className="card card-compact bg-base-100 w-[24rem] shadow-xl overflow-hidden">
+      <div className="card card-compact bg-base-100 max-w-[500px] shadow-xl overflow-hidden">
         <figure>
           <Image src={img} width={500} height={500} alt="img card" />
         </figure>
@@ -19,7 +19,7 @@ const Card2 = ({ title, text, img }) => {
             <button className="btn btn-primary ">Leer mas</button>
           </div>
         </div>
-        <div className="flex justify-around text-white bg-customPink text-sm">
+        <div className="flex justify-around text-white bg-customPink text-xs md:text-sm">
           <h6 class="flex items-center gap-2 py-2 px-2">
             <PiChairFill color="white" />
             20 asientos
@@ -38,4 +38,4 @@ const Card2 = ({ title, text, img }) => {
   );
 };
 
-export default Card2;
+export default Card;
