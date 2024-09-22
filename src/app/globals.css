@@ -338,6 +338,26 @@ header,
   background-color: #f04967;
 }
 
+@media (max-width: 768px) {
+  .list-progress {
+    left: 30px !important;
+    height: 80% !important;
+  }
+
+  .icon-holder {
+    width: 40px !important;
+    left: 13.6px !important;
+  }
+
+  .timeline-container .vertical-scrollable-timeline li {
+    padding: 20px 0px 65px 90px;
+  }
+
+  .timeline-container .vertical-scrollable-timeline p {
+    line-height: 1.2 !important;
+  }
+}
+
 .section-aaci {
   /* background-image: url("/img/bg-aaci.jpg");
   background-repeat: no-repeat;
