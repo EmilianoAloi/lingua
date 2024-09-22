@@ -341,7 +341,7 @@ header,
 @media (max-width: 768px) {
   .list-progress {
     left: 30px !important;
-    height: 80% !important;
+    height: 72% !important;
   }
 
   .icon-holder {
