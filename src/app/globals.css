@@ -189,11 +189,17 @@ header,
 
 /* Cursos */
 
-.courses-section {
+/* .courses-section {
   background-image: url("/img/bg-section-grey.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+} */
+
+@media (max-width: 768px) {
+  .mt-fix-1 {
+    margin-top: -5px;
+  }
 }
 
 .workshop-section {
@@ -338,10 +344,21 @@ header,
   background-color: #f04967;
 }
 
+@media (min-width: 350px) and (max-width: 768px) {
+  .list-progress {
+    height: 80% !important;
+  }
+}
+
+@media (max-width: 340px) {
+  .list-progress {
+    height: 72% !important;
+  }
+}
+
 @media (max-width: 768px) {
   .list-progress {
     left: 30px !important;
-    height: 72% !important;
   }
 
   .icon-holder {

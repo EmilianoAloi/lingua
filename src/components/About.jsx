@@ -54,7 +54,7 @@ const About = () => {
                     Aulas tecnológicas
                   </h6>
                 </div>
-                <div>
+                <div className="mt-fix-1">
                   <h6 className="mb-3 flex items-center gap-2 font-semibold text-black">
                     <IoMdCheckmarkCircle color="#f04967" />
                     Contenidos Online
