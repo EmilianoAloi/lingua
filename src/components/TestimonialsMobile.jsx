@@ -1,11 +1,15 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Scrollbar } from "swiper/modules";
 import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 const TestimonialsMobile = () => {
   return (
-    <div className="md:hidden container">
+    <div className="lg:hidden container">
       <div class="mx-auto text-center md:max-w-xl lg:max-w-3xl">
         <h3 class="mb-6 text-3xl font-bold">Opiniones</h3>
         <p class="mb-6 pb-2 text-sm text-neutral-600 dark:text-neutral-300 md:mb-12 md:pb-0">
@@ -15,12 +19,15 @@ const TestimonialsMobile = () => {
         </p>
       </div>
       <Swiper
+        modules={[Navigation, Pagination, Scrollbar]}
         spaceBetween={50}
         slidesPerView={1}
+        navigation
+        pagination={{ clickable: true }}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
       >
-        <SwiperSlide>
+        <SwiperSlide className="text-center">
           <div class="mb-12 md:mb-0">
             <div class="mb-6 flex justify-center">
               <img
@@ -124,7 +131,7 @@ const TestimonialsMobile = () => {
             </ul>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="text-center">
           <div class="mb-6 flex justify-center">
             <img
               src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).jpg"
@@ -222,7 +229,7 @@ const TestimonialsMobile = () => {
             </li>
           </ul>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="text-center">
           <div class="mb-6 flex justify-center">
             <img
               src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(9).jpg"

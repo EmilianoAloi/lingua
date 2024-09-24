@@ -2,7 +2,7 @@ import React from "react";
 
 const Testomonials = () => {
   return (
-    <section className="hidden md:block container py-10">
+    <section className="hidden lg:block container py-10">
       <div class="mx-auto text-center md:max-w-xl lg:max-w-3xl">
         <h3 class="mb-6 text-3xl font-bold">Opiniones</h3>
         <p class="mb-6 pb-2 text-neutral-600 dark:text-neutral-300 md:mb-12 md:pb-0">
