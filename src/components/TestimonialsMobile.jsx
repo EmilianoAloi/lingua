@@ -9,13 +9,12 @@ import "swiper/css/scrollbar";
 
 const TestimonialsMobile = () => {
   return (
-    <div className="lg:hidden container">
+    <div className="lg:hidden container pb-16">
       <div class="mx-auto text-center md:max-w-xl lg:max-w-3xl">
         <h3 class="mb-6 text-3xl font-bold">Opiniones</h3>
         <p class="mb-6 pb-2 text-sm text-neutral-600 dark:text-neutral-300 md:mb-12 md:pb-0">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error
-          amet numquam iure provident voluptate esse quasi, veritatis totam
-          voluptas nostrum quisquam eum porro a pariatur veniam.
+          amet
         </p>
       </div>
       <Swiper
@@ -35,7 +34,7 @@ const TestimonialsMobile = () => {
                 class="w-32 rounded-full shadow-lg dark:shadow-black/30"
               />
             </div>
-            <h5 class="mb-4 text-xl font-semibold">Maria la del Barrio</h5>
+            <h5 class="text-xl font-semibold">Maria la del Barrio</h5>
             <h6 class="mb-4 font-semibold text-primary dark:text-primary-400">
               Madre de dos alumnos
             </h6>
@@ -49,10 +48,9 @@ const TestimonialsMobile = () => {
                   <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
                 </svg>
               </span>
-              Excelente! Se cuidan los protocolos de prevención epidemiológica.
-              Docentes que motivan y estimulan los procesos de
-              enseñanza-aprendizaje. Lugar cómodo y ameno en el centro de
-              Escobar.
+              Los niños son totalmente motivados; aprenden con actividades al
+              aire libre y clases super preparadas. Los niños salen siempre
+              contentos y quieren regresar a su próxima clase.
             </p>
             <ul class="mb-0 flex items-center justify-center">
               <li>
@@ -138,7 +136,7 @@ const TestimonialsMobile = () => {
               class="w-32 rounded-full shadow-lg dark:shadow-black/30"
             />
           </div>
-          <h5 class="mb-4 text-xl font-semibold">Lisa Cudrow</h5>
+          <h5 class=" text-xl font-semibold">Lisa Fraga</h5>
           <h6 class="mb-4 font-semibold text-primary dark:text-primary-400">
             Alumna
           </h6>
@@ -152,9 +150,9 @@ const TestimonialsMobile = () => {
                 <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
               </svg>
             </span>
-            Los niños son totalmente motivados; aprenden con actividades al aire
-            libre y clases super preparadas. Los niños salen siempre contentos y
-            quieren regresar a su próxima clase.
+            Excelente! Se cuidan los protocolos de prevención epidemiológica.
+            Docentes que motivan y estimulan los procesos de
+            enseñanza-aprendizaje. Lugar cómodo y ameno en el centro de Escobar.
           </p>
           <ul class="mb-0 flex items-center justify-center">
             <li>
@@ -236,7 +234,7 @@ const TestimonialsMobile = () => {
               class="w-32 rounded-full shadow-lg dark:shadow-black/30"
             />
           </div>
-          <h5 class="mb-4 text-xl font-semibold">Juan Ledezma</h5>
+          <h5 class="text-xl font-semibold">Juan Ledezma</h5>
           <h6 class="mb-4 font-semibold text-primary dark:text-primary-400">
             Alumno
           </h6>
@@ -250,9 +248,9 @@ const TestimonialsMobile = () => {
                 <path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
               </svg>
             </span>
-            Los niños son totalmente motivados; aprenden con actividades al aire
-            libre y clases super preparadas. Los niños salen siempre contentos y
-            quieren regresar a su próxima clase.
+            Excelente! Se cuidan los protocolos de prevención epidemiológica.
+            Docentes que motivan y estimulan los procesos de
+            enseñanza-aprendizaje. Lugar cómodo y ameno en el centro de Escobar.
           </p>
           <ul class="mb-0 flex items-center justify-center">
             <li>

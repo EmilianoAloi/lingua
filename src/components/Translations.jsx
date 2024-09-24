@@ -18,12 +18,14 @@ const Translations = () => {
           Buenos Aires.
         </p>
 
-        <button
-          href="#"
-          className="btn text-white shadow-xl mt-5 md:mt-5 ms-3 "
-        >
-          + Informacion sobre Traducciones
-        </button>
+        <div className="text-center md:text-start">
+          <button
+            href="#"
+            className="btn text-white shadow-xl mt-5 md:mt-5 ms-3 "
+          >
+            + Informacion sobre Traducciones
+          </button>
+        </div>
       </div>
     </section>
   );

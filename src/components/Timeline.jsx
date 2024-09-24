@@ -117,7 +117,7 @@ const Timeline = () => {
               ¿Querés saber mas?
               <button
                 href="#"
-                className="btn text-white shadow-xl mt-5 md:mt-0 ms-3"
+                className="btn text-white shadow-xl mt-5 md:mt-0 md:ms-3"
               >
                 + Informacion sobre Examen AACI
               </button>

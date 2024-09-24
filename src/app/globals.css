@@ -437,3 +437,11 @@ header,
 .swiper-pagination-bullet-active {
   background-color: #ff4880 !important;
 }
+
+.swiper-pagination {
+  bottom: -30px !important;
+}
+
+.swiper {
+  overflow: visible !important;
+}
