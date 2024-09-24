@@ -33,7 +33,6 @@ const Footer = () => {
         <a className="link link-hover">Sobre nosotros</a>
         <a className="link link-hover">Contacto</a>
         <a className="link link-hover">Trabajá con nosotros</a>
-        <a className="link link-hover">Press kit</a>
       </nav>
       <nav className="text-white">
         <h6 className="footer-title">Legal</h6>

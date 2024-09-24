@@ -2,17 +2,20 @@
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{html,js}",
+    "./node_modules/tw-elements/js/**/*.js",
   ],
   theme: {
     extend: {
       colors: {
-        customPink: '#f04967',
-        customViolet: '#393d72',
+        customPink: "#f04967",
+        customViolet: "#393d72",
         customPink2: "#FDD8E0",
-        customBgPink: '#FFF7F8',
-        customGray: '#8B8D98',
+        customBgPink: "#FFF7F8",
+        customGray: "#8B8D98",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -21,20 +24,19 @@ module.exports = {
       },
       container: {
         center: true,
-        padding: '1rem', 
+        padding: "1rem",
         screens: {
-          sm: '640px',
-          md: '768px',
-          lg: '1024px',
-          xl: '1280px',
+          sm: "640px",
+          md: "768px",
+          lg: "1024px",
+          xl: "1280px",
         },
       },
     },
   },
   daisyui: {
-    themes: ['light'], 
+    themes: ["light"],
   },
-  plugins: [
-    require('daisyui'),
-  ],
+  plugins: [require("daisyui"), require("tw-elements/plugin.cjs")],
+  darkMode: "class",
 };

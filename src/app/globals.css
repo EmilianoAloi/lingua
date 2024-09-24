@@ -67,6 +67,13 @@ header,
 
 .btn-cta {
   border-radius: 25% 10%;
+  background-color: white;
+  color: #ff4880;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #393d72 !important;
 }
 .about-section {
   /* background: linear-gradient(

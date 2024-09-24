@@ -30,8 +30,9 @@ const Hero = () => {
             Inglés.
           </p>
 
-          <button className="btn-cta mt-8 px-4 py-2 md:px-8 md:py-4 bg-white text-customPink text-lg font-semibold rounded shadow-xl">
-            Quiero saber mas
+          {/* <button className="btn-cta mt-8 px-4 py-2 md:px-8 md:py-4 bg-white text-customPink text-lg font-semibold rounded shadow-xl"> */}
+          <button className="btn btn-cta text-lg text-white shadow-xl  md:mt-8 ms-3 bg-white text-customPink   font-semibold rounded shadow-xl">
+            + Quiero saber mas
           </button>
         </div>
 

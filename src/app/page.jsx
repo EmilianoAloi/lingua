@@ -5,6 +5,9 @@ import Translations from "@/components/Translations";
 import Aaci from "@/components/Aaci";
 import Companies from "@/components/Companies";
 import Divider from "@/components/Divider";
+import Testomonials from "@/components/Testomonials";
+import HeroCarousel from "@/components/HeroCarousel";
+import TestimonialsMobile from "@/components/TestimonialsMobile";
 
 export default function Home() {
   return (
@@ -16,6 +19,8 @@ export default function Home() {
       <Divider />
       <Aaci />
       <Translations />
+      <Testomonials />
+      <TestimonialsMobile />
     </main>
   );
 }
