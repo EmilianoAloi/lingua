@@ -71,6 +71,11 @@ header,
   color: #ff4880;
 }
 
+.btn-cta:hover {
+  background-color: rgba(255, 255, 255, 0.74) !important;
+  color: #ff4880;
+}
+
 .btn-primary:hover,
 .btn-primary:focus {
   background-color: #393d72 !important;
@@ -105,7 +110,7 @@ header,
       url("/img/frente-mobile.png");
 
     background-size: cover;
-    border-radius: 20px;
+    min-height: 400px;
     margin-top: -2rem;
   }
 }
@@ -429,4 +434,15 @@ header,
 
 .swiper {
   overflow: visible !important;
+}
+
+/* Section separadores */
+.wave {
+  border-top-right-radius: 100px;
+}
+
+@media (min-width: 768px) {
+  .wave {
+    border-top-right-radius: 200px;
+  }
 }

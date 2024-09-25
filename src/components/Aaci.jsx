@@ -10,10 +10,10 @@ const Aaci = () => {
             <h2 className="text-customPink  mb-4 title-border-radius text-md md:text-2xl inline-block font-semibold  p-4 mb-6 ">
               Examen AACI
             </h2>
-            <h3 className="text-slate-800 text-2xl md:text-4xl md:text-start  font-bold">
+            <h3 className="text-customBlack mb-4 text-xl md:text-4xl md:text-start  font-bold">
               Rendí el Examen AACI (Asociación Argentina de Cultura Inglesa)
             </h3>
-            <p className=" mt-2">
+            <p className="text-sm md:text-lg text-customBlack">
               Lingua Casa de Idiomas está suscripta a la AACI (Asociación
               Argentina de Cultura Inglesa) y todos nuestros exámenes están
               basados en el Common European Framework o Marco Común de

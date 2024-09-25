@@ -10,29 +10,28 @@ const Hero = () => {
   return (
     <section className="hero relative  bg-customPink pb-14 md:pb-20">
       <div className="container max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-4 py-4">
-        <div className="col-span-2 self-center pt-10 md:pt-28">
+        <div className="col-span-2 self-center pt-8 md:pt-28">
           <div className="self-center justify-self-center">
             <Image
               src={heroKid}
-              width={900}
+              width={400}
               alt="oval"
-              className="w-[90%] mx-auto mb-10 sm:hidden"
+              className="w-[65%] mx-auto mb-10 md:mb-10 sm:hidden"
             />
           </div>
-          <h1 className="text-4xl lg:text-5xl font-bold text-white ">
+          <h1 className="text-2xl lg:text-5xl font-bold text-white ">
             Aprendé inglés en Lingua
           </h1>
-          <h2 className="hidden md:block text-4xl lg:text-5xl font-bold text-white ">
+          <h2 className=" md:block text-2xl lg:text-5xl font-bold text-white ">
             Transformá tu Futuro.
           </h2>
-          <p className="mt-6 text-lg lg:text-xl text-white max-w-2xl ">
+          <p className="mt-4 text-md lg:text-xl text-white max-w-2xl ">
             Somos la Casa de Idiomas de Escobar con más de
             <strong> 30 años de experiencia </strong> en la enseñanza del idioma
             Inglés.
           </p>
 
-          {/* <button className="btn-cta mt-8 px-4 py-2 md:px-8 md:py-4 bg-white text-customPink text-lg font-semibold rounded shadow-xl"> */}
-          <button className="btn btn-cta text-lg text-white shadow-xl  md:mt-8 ms-3 bg-white text-customPink   font-semibold rounded shadow-xl">
+          <button className="btn btn-cta text-lg text-white shadow-xl mt-6  md:mt-8 px-8 bg-white text-customPink   font-semibold rounded shadow-xl">
             Empezá ahora
           </button>
         </div>

@@ -9,7 +9,7 @@ import "swiper/css/scrollbar";
 
 const TestimonialsMobile = () => {
   return (
-    <div className="lg:hidden container pb-16">
+    <div className="lg:hidden container  py-20 pb-16 overflow-hidden">
       <div className="mx-auto text-center md:max-w-xl lg:max-w-3xl">
         <h3 className="mb-6 text-3xl font-bold">Opiniones</h3>
         <p className="mb-6 pb-2 text-sm text-neutral-600 dark:text-neutral-300 md:mb-12 md:pb-0">

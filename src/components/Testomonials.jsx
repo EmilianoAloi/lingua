@@ -2,7 +2,7 @@ import React from "react";
 
 const Testomonials = () => {
   return (
-    <section className="hidden lg:block container py-10">
+    <section className="hidden lg:block container py-20 md:py-20">
       <div className="mx-auto text-center md:max-w-xl lg:max-w-3xl">
         <h3 className="mb-6 text-3xl font-bold">Opiniones</h3>
         <p className="mb-6 pb-2 text-neutral-600 dark:text-neutral-300 md:mb-12 md:pb-0">
@@ -20,8 +20,8 @@ const Testomonials = () => {
               className="w-32 rounded-full shadow-lg dark:shadow-black/30"
             />
           </div>
-          <h5 className="mb-4 text-xl font-semibold">Maria la del Barrio</h5>
-          <h6 className="mb-4 font-semibold text-primary dark:text-primary-400">
+          <h5 className=" text-xl font-semibold">Maria la del Barrio</h5>
+          <h6 className="mb-4 font-semibold text-customPink dark:text-customPink-400">
             Madre de dos alumnos
           </h6>
           <p className="mb-4 text-neutral-600 dark:text-neutral-300">
@@ -121,8 +121,8 @@ const Testomonials = () => {
               className="w-32 rounded-full shadow-lg dark:shadow-black/30"
             />
           </div>
-          <h5 className="mb-4 text-xl font-semibold">Lisa Cudrow</h5>
-          <h6 className="mb-4 font-semibold text-primary dark:text-primary-400">
+          <h5 className="text-xl font-semibold">Lisa Cudrow</h5>
+          <h6 className="mb-4 font-semibold text-customPink dark:text-customPink-400">
             Alumna
           </h6>
           <p className="mb-4 text-neutral-600 dark:text-neutral-300">
@@ -219,8 +219,8 @@ const Testomonials = () => {
               className="w-32 rounded-full shadow-lg dark:shadow-black/30"
             />
           </div>
-          <h5 className="mb-4 text-xl font-semibold">Juan Ledezma</h5>
-          <h6 className="mb-4 font-semibold text-primary dark:text-primary-400">
+          <h5 className="text-xl font-semibold">Juan Ledezma</h5>
+          <h6 className="mb-4 font-semibold text-customPink dark:text-customPink-400">
             Alumno
           </h6>
           <p className="mb-4 text-neutral-600 dark:text-neutral-300">

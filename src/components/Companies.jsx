@@ -10,10 +10,10 @@ const Companies = () => {
           <h2 className="text-customPink mb-4 title-border-radius text-md md:text-2xl font-semibold inline-block p-4 mb-6 ">
             Cursos para empresas
           </h2>
-          <p className="text-slate-800 mb-8 text-2xl md:text-4xl  font-bold max-w-[700px] mx-auto">
+          <p className="text-slate-800 mb-4 text-xl md:text-4xl  font-bold max-w-[700px] mx-auto">
             Modalidad «in-company» o cursos regulares en Lingua.
           </p>
-          <p className=" max-w-[700px] mx-auto">
+          <p className="text-sm md:text-lg  max-w-[700px] mx-auto">
             Ofrecemos cursos adaptados a las necesidades y objetivos de cada
             empresa. Preparamos al personal de empresas para exámenes
             internacionales de Cambridge o para obtener la certificación de AACI
