@@ -3,7 +3,6 @@ import Card from "./Card";
 const Courses = () => {
   return (
     <section className="courses-section bg-bg1 wave">
-      <div class="wave"></div>
       <div className="container  mx-auto px-4 py-20 pt-10 ">
         <h2 className="text-customPink mb-4 title-border-radius text-md md:text-2xl font-semibold inline-block p-4 mb-6 ">
           Cursos de Inglés a medida

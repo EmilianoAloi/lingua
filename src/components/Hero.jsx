@@ -16,7 +16,7 @@ const Hero = () => {
               src={heroKid}
               width={400}
               alt="oval"
-              className="w-[65%] mx-auto mb-10 md:mb-10 sm:hidden"
+              className="w-[75%] mx-auto mb-10 md:mb-10 sm:hidden"
             />
           </div>
           <h1 className="text-2xl lg:text-5xl font-bold text-white ">
