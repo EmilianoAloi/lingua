@@ -372,25 +372,6 @@ header,
   }
 }
 
-.section-aaci {
-  /* background-image: url("/img/bg-aaci.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative; */
-}
-
-.aaci-overlay {
-  /* background-image: linear-gradient(15deg, #db3a9d 0%, #c7405e 100%);
-  position: absolute;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  width: 100%;
-  height: 100%;
-  opacity: 0.85; */
-}
-
 .btn2 {
   background-color: white;
   border: 2px solid #fdd8e0;

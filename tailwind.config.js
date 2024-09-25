@@ -18,7 +18,7 @@ module.exports = {
         customGray: "#8B8D98",
         bg1: "#FFF7F8",
         bg2: "#FFFCFC",
-        customBlack: " #1E1F24",
+        customBlack: "#1E1F24",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
