@@ -20,15 +20,15 @@ const Card = ({ title, text, img }) => {
           </div>
         </div>
         <div className="flex justify-around text-white bg-customPink text-xs md:text-sm">
-          <h6 class="text-xs flex items-center gap-2 py-2 px-2">
+          <h6 className="text-xs flex items-center gap-2 py-2 px-2">
             <PiChairFill color="white" />
             20 asientos
           </h6>
-          <h6 class="text-xs flex items-center gap-2 py-2 px-2">
+          <h6 className="text-xs flex items-center gap-2 py-2 px-2">
             <IoMdCheckmarkCircle color="white" />
             20 clases
           </h6>
-          <h6 class="text-xs flex items-center gap-2 py-2 px-2">
+          <h6 className="text-xs flex items-center gap-2 py-2 px-2">
             <MdOutlineAccessTimeFilled color="white" />
             10 semanas
           </h6>

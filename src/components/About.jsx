@@ -6,13 +6,13 @@ const About = () => {
   return (
     <section className="py-6 md:py-20 about-section">
       <div>
-        <div class="container mx-auto py-5">
-          <div class="flex flex-wrap items-center gap-20">
+        <div className="container mx-auto py-5">
+          <div className="flex flex-wrap items-center gap-20">
             <div className="hidden md:block w-full md:w-5/12">
               <div className="about-video">
                 <button
                   type="button"
-                  class="btn-play"
+                  className="btn-play"
                   onClick={() =>
                     document.getElementById("modal-about").showModal()
                   }
@@ -75,7 +75,7 @@ const About = () => {
               <div className="about-video">
                 <button
                   type="button"
-                  class="btn-play"
+                  className="btn-play"
                   onClick={() =>
                     document.getElementById("modal-about").showModal()
                   }
@@ -98,10 +98,6 @@ const About = () => {
             height="315"
             src="https://www.youtube.com/embed/PeXZktbTgLo?si=liwwIHXVT0CoB38o"
             title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
           ></iframe>
         </div>
         <form method="dialog" className="modal-backdrop">

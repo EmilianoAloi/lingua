@@ -10,7 +10,7 @@ const Aaci = () => {
             <h2 className="text-customPink  mb-4 title-border-radius text-md md:text-2xl inline-block font-semibold  p-4 mb-6 ">
               Examen AACI
             </h2>
-            <h3 class="text-slate-800 text-2xl md:text-4xl md:text-start  font-bold">
+            <h3 className="text-slate-800 text-2xl md:text-4xl md:text-start  font-bold">
               Rendí el Examen AACI (Asociación Argentina de Cultura Inglesa)
             </h3>
             <p className=" mt-2">

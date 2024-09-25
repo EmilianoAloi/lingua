@@ -2,10 +2,10 @@ const Translations = () => {
   return (
     <section className="translations-section">
       <div className="container  mx-auto px-4 py-20  ">
-        <h2 class="text-customPink  mb-4 title-border-radius text-md md:text-2xl font-semibold inline-block p-4 mb-6 ">
+        <h2 className="text-customPink  mb-4 title-border-radius text-md md:text-2xl font-semibold inline-block p-4 mb-6 ">
           Traducciones Públicas
         </h2>
-        <h3 class="text-slate-800 text-2xl md:text-4xl md:text-start  font-bold">
+        <h3 className="text-slate-800 text-2xl md:text-4xl md:text-start  font-bold">
           Ofrecemos servicio de traducciones públicas para personas,
           instituciones o empresas.
         </h3>

@@ -5,6 +5,7 @@ import hero from "@/assets/hero.png";
 import hero2 from "@/assets/hero2.png";
 import hero3 from "@/assets/hero3.png";
 import heroKid from "@/assets/hero-kid.png";
+
 const Hero = () => {
   return (
     <section className="hero relative  bg-customPink pb-14 md:pb-20">
@@ -32,7 +33,7 @@ const Hero = () => {
 
           {/* <button className="btn-cta mt-8 px-4 py-2 md:px-8 md:py-4 bg-white text-customPink text-lg font-semibold rounded shadow-xl"> */}
           <button className="btn btn-cta text-lg text-white shadow-xl  md:mt-8 ms-3 bg-white text-customPink   font-semibold rounded shadow-xl">
-            + Quiero saber mas
+            Empezá ahora
           </button>
         </div>
 

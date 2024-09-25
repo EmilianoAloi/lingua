@@ -75,21 +75,6 @@ header,
 .btn-primary:focus {
   background-color: #393d72 !important;
 }
-.about-section {
-  /* background: linear-gradient(
-      rgba(255, 255, 255, 0.9),
-      rgba(255, 255, 255, 0.9)
-    ),
-    url("/img/frente.jpg");
-  background-color: rgba(0, 0, 0, 0);
-  background-position-x: 0%, 0%;
-  background-position-y: 0%, 0%;
-  background-repeat: repeat, repeat;
-  background-size: auto, auto;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-}
 
 .about-video {
   border-radius: 50% 20% / 10% 40%;
@@ -249,7 +234,7 @@ header,
   TIMELINE              
 -----------------------------------------*/
 .timeline-section {
-  background-image: url("");
+  /* background-image: url(""); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
