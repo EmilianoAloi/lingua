@@ -42,6 +42,25 @@ header,
   background: url("/img/bg-header-bottom.png") center center repeat-x;
 }
 
+.swiper-hero {
+  height: 500px;
+}
+.banner-hero2 {
+  background-image: url("/img/examen-aaci.png");
+  background-size: cover;
+  height: 500px;
+  overflow: hidden;
+}
+
+.banner-hero3 {
+  background-image: url("/img/image-traducciones.jpg");
+  background-size: cover;
+  height: 500px;
+  overflow: hidden;
+}
+
+/* FIN HERO */
+
 .title-border-radius {
   border-bottom-right-radius: 10%;
   border-bottom-left-radius: 30%;

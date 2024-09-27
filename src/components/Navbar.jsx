@@ -105,7 +105,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href="#"
+              href="/contacto"
               className="hover:text-customGray"
               onClick={closeNavbar}
             >
