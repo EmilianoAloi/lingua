@@ -41,7 +41,7 @@ const HeroCarousel = () => {
               src={heroKid}
               width={400}
               alt="oval"
-              className="w-[70%] mx-auto mb-2 mt-6 md:mb-10 "
+              className="w-[75%] mx-auto mb-2 mt-6 md:mb-10 "
             />
           </div>
           <div className="col-span-2 self-center ">

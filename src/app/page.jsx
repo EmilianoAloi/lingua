@@ -11,7 +11,7 @@ import TestimonialsMobile from "@/components/TestimonialsMobile";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="overflow-hidden">
       <HeroCarousel />
       <About />
       <Courses />
