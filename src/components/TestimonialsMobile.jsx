@@ -38,7 +38,7 @@ const TestimonialsMobile = () => {
             <h6 className="mb-4 font-semibold text-customPink dark:text-customPink-400">
               Madre de dos alumnos
             </h6>
-            <p className="mb-4 text-neutral-600 dark:text-neutral-300">
+            <p className="mb-4 text-neutral-600 dark:text-neutral-300 text-sm">
               <span className="inline-block pe-2 [&>svg]:w-5">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -140,7 +140,7 @@ const TestimonialsMobile = () => {
           <h6 className="mb-4 font-semibold text-customPink dark:text-customPink-400">
             Alumna
           </h6>
-          <p className="mb-4 text-neutral-600 dark:text-neutral-300">
+          <p className="mb-4 text-neutral-600 dark:text-neutral-300 text-sm">
             <span className="inline-block pe-2 [&>svg]:w-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -238,7 +238,7 @@ const TestimonialsMobile = () => {
           <h6 className="mb-4 font-semibold text-customPink dark:text-customPink-400">
             Alumno
           </h6>
-          <p className="mb-4 text-neutral-600 dark:text-neutral-300">
+          <p className="mb-4 text-neutral-600 dark:text-neutral-300 text-sm">
             <span className="inline-block pe-2 [&>svg]:w-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
