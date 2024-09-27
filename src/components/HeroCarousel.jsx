@@ -1,21 +1,35 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar } from "swiper/modules";
+import {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  Autoplay,
+  EffectFade,
+} from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import "swiper/css/effect-fade";
 import Image from "next/image";
 import heroKid from "@/assets/hero-kid.png";
 
 const HeroCarousel = () => {
   return (
     <Swiper
-      modules={[Navigation, Pagination, Scrollbar]}
+      modules={[Navigation, Pagination, Scrollbar, Autoplay, EffectFade]}
       pagination={{ clickable: true }}
-      spaceBetween={50}
+      spaceBetween={0}
       slidesPerView={1}
+      autoplay={{
+        delay: 3000,
+        disableOnInteraction: false,
+      }}
+      effect="fade" // Activar el efecto de fade
+      fadeEffect={{ crossFade: true }} // Opcional: Hacer que el fade sea más fluido entre slides
+      speed={1500}
       onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
       className="swiper-hero  hero relative overflow-hidden"
@@ -43,9 +57,12 @@ const HeroCarousel = () => {
               idioma Inglés.
             </p>
 
-            <button className="btn btn-cta text-lg text-white shadow-xl mt-6  md:mt-8 px-8 bg-white text-customPink   font-semibold rounded shadow-xl">
-              Empezá ahora
-            </button>
+            <a
+              href="#about"
+              className="btn btn-cta text-lg text-white shadow-xl mt-6  md:mt-8 px-8 bg-white text-customPink   font-semibold rounded shadow-xl"
+            >
+              Descubrí más
+            </a>
           </div>
 
           <div className="hidden sm:block self-center justify-self-center pt-10  me-4">
@@ -57,10 +74,10 @@ const HeroCarousel = () => {
         <div className="banner-hero4 ">
           <div className="flex container">
             <div className="banner-info max-w-[450px] text-white mt-44 md:mt-36 rounded-xl ">
-              <h2 className="text-2xl lg:text-5xl font-extrabold ">
+              <h2 className="text-2xl lg:text-5xl font-bold ">
                 Cursos de inglés a medida <br />
               </h2>
-              <p className="text-xl font-bold mb-6 mt-4">
+              <p className="text-xl  mb-6 mt-4">
                 Para niños, adolescentes, adultos y el personal de empresas.
               </p>
               <p className="font-bold"></p>
@@ -75,10 +92,10 @@ const HeroCarousel = () => {
         <div className="banner-hero2 ">
           <div className="flex container">
             <div className="banner-info max-w-[500px] text-white mt-44 md:mt-36">
-              <h2 className="text-2xl lg:text-5xl font-extrabold ">
+              <h2 className="text-2xl lg:text-5xl font-bold ">
                 Examen AACI <br />
               </h2>
-              <p className="text-xl font-bold mb-6 mt-4">
+              <p className="text-xl  mb-6 mt-4">
                 (Asociación Argentina de Cultura Inglesa) <br />
                 Certificá tu nivel de inglés
               </p>
@@ -94,10 +111,10 @@ const HeroCarousel = () => {
         <div className="banner-hero3 ">
           <div className="flex container">
             <div className="banner-info max-w-[600px] text-white mt-44 md:mt-36 rounded-xl s">
-              <h2 className="text-2xl lg:text-5xl font-extrabold ">
+              <h2 className="text-2xl lg:text-5xl font-bold ">
                 Traducciones públicas <br />
               </h2>
-              <p className="text-xl font-bold mb-6 mt-4">
+              <p className="text-xl mb-6 mt-4">
                 Ofrecemos servicio de traducciones públicas para personas,
                 instituciones o empresas.
               </p>
@@ -109,24 +126,6 @@ const HeroCarousel = () => {
           </div>
         </div>
       </SwiperSlide>
-      {/* <SwiperSlide>
-        <div className="banner-hero4 ">
-          <div className="flex container">
-            <div className="banner-info max-w-[450px] text-white mt-36 rounded-xl s">
-              <h2 className="text-2xl lg:text-5xl font-extrabold ">
-                Cursos de inglés a medida <br />
-              </h2>
-              <p className="text-xl font-bold mb-6 mt-4">
-                Para niños, adolescentes, adultos y el personal de empresas.
-              </p>
-              <p className="font-bold"></p>
-              <button className="btn text-lg text-white  shadow-xl mt-6  md:mt-4 px-8 font-semibold rounded shadow-xl">
-                + Informacion
-              </button>
-            </div>
-          </div>
-        </div>
-      </SwiperSlide> */}
     </Swiper>
   );
 };

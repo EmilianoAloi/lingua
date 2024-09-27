@@ -57,7 +57,7 @@ header,
   }
 
   .banner-hero3 {
-    background-image: url("/img/image-traducciones.jpg");
+    background-image: url("/img/image-traducciones-mobile.png") !important;
     height: 580px !important;
   }
 
