@@ -12,7 +12,7 @@ import TestimonialsMobile from "@/components/TestimonialsMobile";
 export default function Home() {
   return (
     <main className="">
-      <Hero />
+      <HeroCarousel />
       <About />
       <Courses />
       <Companies />
