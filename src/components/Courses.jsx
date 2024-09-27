@@ -1,4 +1,5 @@
 import Card from "./Card";
+import CoursesCarousel from "./CoursesCarousel";
 
 const Courses = () => {
   return (
@@ -17,7 +18,7 @@ const Courses = () => {
           voluptatum ullam, quisquam voluptatum ullam,
         </p>
 
-        <div className="flex flex-col lg:flex-row gap-14 items-center justify-center">
+        <div className="hidden md:flex flex flex-col lg:flex-row gap-14 items-center justify-center">
           <Card
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur, onec sed purus consectet"
             title="Cursos para niños"
@@ -34,6 +35,10 @@ const Courses = () => {
             title="Cursos para adultos"
             img={"/img/adultos2.png"}
           />
+        </div>
+
+        <div className="mt-10 md:hidden">
+          <CoursesCarousel />
         </div>
       </div>
     </section>

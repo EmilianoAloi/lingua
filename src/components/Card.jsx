@@ -7,16 +7,18 @@ import { PiChairFill } from "react-icons/pi";
 const Card = ({ title, text, img }) => {
   return (
     <div>
-      <div className="card card-compact bg-base-100 max-w-[370px] shadow-xl overflow-hidden  md:mx-0">
+      <div className="card card-compact bg-base-100 max-w-[370px] shadow-xl overflow-hidden   md:mx-0">
         <figure>
           <Image src={img} width={500} height={500} alt="img card" />
         </figure>
         <div className="card-body">
-          <h2 className="card-title ">{title}</h2>
-          <p className="text-start">{text}</p>
+          <h2 className="card-title text-md">{title}</h2>
+          <p className="text-start text-xs">{text}</p>
 
           <div className="card-actions justify-end my-2">
-            <button className="btn btn-primary ">Leer mas</button>
+            <button className="btn btn-primary text-xs py-0">
+              Ver detalles
+            </button>
           </div>
         </div>
         <div className="flex justify-around text-white bg-customPink text-xs md:text-sm">
@@ -24,10 +26,10 @@ const Card = ({ title, text, img }) => {
             <PiChairFill color="white" />
             20 asientos
           </h6>
-          <h6 className="text-xs flex items-center gap-2 py-2 px-2">
+          {/* <h6 className="text-xs flex items-center gap-2 py-2 px-2">
             <IoMdCheckmarkCircle color="white" />
             20 clases
-          </h6>
+          </h6> */}
           <h6 className="text-xs flex items-center gap-2 py-2 px-2">
             <MdOutlineAccessTimeFilled color="white" />
             10 semanas

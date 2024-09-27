@@ -1,10 +1,11 @@
 import HeroCarousel from "@/components/HeroCarousel";
+import CoursesCarousel from "@/components/CoursesCarousel";
 
 const ContactPage = () => {
   return (
     <>
-      <section>
-        <HeroCarousel />
+      <section className="container">
+        <CoursesCarousel />
       </section>
 
       <section className="py-16 ">

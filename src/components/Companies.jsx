@@ -1,6 +1,7 @@
 import React from "react";
 import Card2 from "./Card2";
 import Image from "next/image";
+import CoursesCarousel from "./CompaniesCarousel";
 
 const Companies = () => {
   return (
@@ -36,7 +37,7 @@ const Companies = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row gap-10 items-center justify-around mt-10 mx-auto xl:ms-10">
+        <div className="hidden md:flex flex flex-col lg:flex-row gap-10 items-center justify-around mt-10 mx-auto xl:ms-10">
           <Card2
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur, onec sed purus consectet Donec sed purus consectetur,"
             title="Cursos «in-company» "
@@ -47,6 +48,9 @@ const Companies = () => {
             title="Cursos en Lingua"
             img={"/img/empresas.webp"}
           />
+        </div>
+        <div className="md:hidden my-10">
+          <CoursesCarousel />
         </div>
       </div>
     </div>

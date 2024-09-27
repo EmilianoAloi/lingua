@@ -27,14 +27,14 @@ const HeroCarousel = () => {
         delay: 3000,
         disableOnInteraction: false,
       }}
-      effect="fade" // Activar el efecto de fade
-      fadeEffect={{ crossFade: true }} // Opcional: Hacer que el fade sea más fluido entre slides
+      effect="fade"
+      fadeEffect={{ crossFade: true }}
       speed={1500}
       onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
       className="swiper-hero  hero relative overflow-hidden"
     >
-      <SwiperSlide className="banner-hero1 bg-customPink">
+      <SwiperSlide className="banner-hero1 ">
         <div className="container max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-4 py-4 ">
           <div className="self-center justify-self-center block md:hidden">
             <Image

@@ -18,8 +18,8 @@ const Navbar = () => {
   return (
     <header className=" flex-wrap w-full pb-2 px-4 lg:py-1 lg:px-10 z-20 flex justify-center ">
       <nav className="flex w-full justify-between items-center ">
-        <Link href="/" className="">
-          <Image src={logo} width={180} alt="logo lingua" />
+        <Link href="/" className="mt-2">
+          <Image src={logo} width={150} alt="logo lingua" />
         </Link>
         <div className=" hidden lg:flex text-customPink text-lg ">
           <ul className="flex gap-8 items-center">
