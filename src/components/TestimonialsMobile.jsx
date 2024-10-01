@@ -11,7 +11,9 @@ const TestimonialsMobile = () => {
   return (
     <div className="lg:hidden container  py-16 pb-16 overflow-hidden">
       <div className="mx-auto text-center md:max-w-xl lg:max-w-3xl">
-        <h3 className="mb-6 text-3xl font-bold">Opiniones</h3>
+        <h3 className="mb-2 text-customBlack text-xl md:text-4xl  font-bold">
+          Opiniones
+        </h3>
         <p className="mb-6 pb-2 text-sm text-neutral-600 dark:text-neutral-300 md:mb-12 md:pb-0">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error
           amet

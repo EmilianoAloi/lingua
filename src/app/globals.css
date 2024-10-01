@@ -50,15 +50,23 @@ header,
 .banner-hero1 {
   background: rgb(235, 144, 152);
   background: radial-gradient(
-    circle at 50% 60px,
+    circle at 80% 200px,
     rgba(235, 144, 152, 1) 4%,
     rgba(252, 70, 107, 1) 55%
   );
 }
-
 @media (max-width: 768px) {
   .swiper-hero {
     height: 580px;
+  }
+
+  .banner-hero1 {
+    background: rgb(235, 144, 152);
+    background: radial-gradient(
+      circle at 50% 60px,
+      rgba(235, 144, 152, 1) 4%,
+      rgba(252, 70, 107, 1) 55%
+    );
   }
 
   .banner-hero2 {
@@ -488,4 +496,12 @@ header,
   .wave {
     border-top-right-radius: 200px;
   }
+}
+
+/* Page Contacto */
+
+.bg-contacto {
+  background-image: url("/img/bg-contact.png");
+  height: 300px !important;
+  background-position: bottom;
 }

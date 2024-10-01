@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { MdOutlineAccessTimeFilled } from "react-icons/md";
-import { IoMdCheckmarkCircle } from "react-icons/io";
+import { FaArrowRight } from "react-icons/fa6";
 import { PiChairFill } from "react-icons/pi";
 
 const Card = ({ title, text, img }) => {
@@ -15,10 +15,11 @@ const Card = ({ title, text, img }) => {
           <h2 className="card-title text-md">{title}</h2>
           <p className="text-start text-xs">{text}</p>
 
-          <div className="card-actions justify-end my-2">
-            <button className="btn btn-primary text-xs py-0">
-              Ver detalles
-            </button>
+          <div className="card-actions justify-end mt-2">
+            <a className="text-md py-2 text-customPink flex  gap-2 items-center ">
+              Ver detalles{" "}
+              <FaArrowRight color="#f04967" className="mt-0.5" fontSize={15} />
+            </a>
           </div>
         </div>
         <div className="flex justify-around text-white bg-customPink text-xs md:text-sm">
