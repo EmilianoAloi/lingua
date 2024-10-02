@@ -50,11 +50,12 @@ header,
 .banner-hero1 {
   background: rgb(235, 144, 152);
   background: radial-gradient(
-    circle at 80% 200px,
-    rgba(235, 144, 152, 1) 4%,
-    rgba(252, 70, 107, 1) 55%
+    circle at 80% 100px,
+    rgba(235, 144, 152, 1) 2%,
+    rgba(252, 70, 107, 1) 60%
   );
 }
+
 @media (max-width: 768px) {
   .swiper-hero {
     height: 580px;
@@ -505,3 +506,16 @@ header,
   height: 300px !important;
   background-position: bottom;
 }
+
+/**/
+
+/* Page Cursos */
+
+.bg-cursos {
+  background-image: url("/img/image-cursos.png");
+  height: 250px !important;
+  background-position: bottom;
+  background-size: cover;
+}
+
+/**/

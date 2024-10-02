@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className=" hidden lg:flex text-customPink text-lg ">
           <ul className="flex gap-8 items-center">
             <li>
-              <Link href="#" className="hover:text-customGray">
+              <Link href="/cursos" className="hover:text-customGray">
                 Cursos
               </Link>
             </li>
