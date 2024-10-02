@@ -9,11 +9,17 @@ const CoursesPage = () => {
         </h2>
       </section>
 
-      <section className="container pt-8">
+      <section className="container pt-10">
         <h3 className="text-customBlack text-xl md:text-4xl  font-semibold mb-4">
-          Cursos para niños de 3 a 7 años
+          Cursos de inglés para niños de 6 a 11 años
         </h3>
-        <div className="my-6">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
+          distinctio cupiditate, libero quis tempora incidunt quam accusamus!
+          Dolores nulla distinctio, harum dicta ex magnam voluptas illum sunt
+          aut at cum.
+        </p>
+        <div className="mb-36 mt-10">
           <VerticalTab />
         </div>
       </section>

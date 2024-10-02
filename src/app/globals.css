@@ -518,4 +518,9 @@ header,
   background-size: cover;
 }
 
+.tab-img {
+  width: 100%;
+  height: 100%;
+}
+
 /**/
